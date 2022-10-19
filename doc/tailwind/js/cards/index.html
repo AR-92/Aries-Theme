@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Aries">
+<title>
+      Cards | Aries JS @ Aries
+    </title>
+<meta name="description" content="Use Aries's cards for Tailwind CSS that provide a flexible and extensible content container with multiple variants and options.">
+<meta name="twitter:title" content="Cards | Aries JS @ Aries">
+<meta name="twitter:description" content="Use Aries's cards for Tailwind CSS that provide a flexible and extensible content container with multiple variants and options.">
+<meta property="og:title" content="Cards | Aries JS @ Aries" />
+<meta property="og:description" content="Use Aries's cards for Tailwind CSS that provide a flexible and extensible content container with multiple variants and options." />
+<meta property="og:site_name" content="Aries" />
+<link rel="stylesheet" href="#" type="text/css">
+<link href="../../../assets/allcss.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="../../../assets/notus.css" rel="stylesheet" />
+<link href="../../../assets/docs.css" rel="stylesheet" />
+</head>
+<body class="docs ">
+<div class="ct-docs-main-container">
+<div class="ct-docs-main-content-row">
+<div class="ct-docs-sidebar-col">
+<nav class="ct-docs-sidebar-collapse-links">
+<div class="ct-docs-sidebar-product">
+
+<p class="ct-docs-sidebar-product-text">Aries JS</p>
+</div>
+<div class="ct-docs-toc-item-active">
+<a class="ct-docs-toc-link" href="javascript:void(0)">
+Getting Started
+</a>
+<ul class="ct-docs-nav-sidenav ms-4 ps-1">
+<li class="">
+<a href="../overview/index.html">
+Overview
+</a>
+</li>
+<li class="">
+<a href="../build-tools/index.html">
+Build Tools
+</a>
+</li>
+<li class="">
+<a href="../license/index.html">
+License
+</a>
+</li>
+<li class="">
+<a href="../quick-start/index.html">
+Quick Start
+</a>
+</li>
+<li class="">
+<a href="../what-is-javascript/index.html">
+What is JavaScript
+</a>
+</li>
+<li class="">
+<a href="../what-is-tailwind-css/index.html">
+What is Tailwind CSS
+</a>
+</li>
+</ul>
+</div>
+<div class="ct-docs-toc-item-active">
+<a class="ct-docs-toc-link" href="javascript:void(0)">
+Foundation
+</a>
+<ul class="ct-docs-nav-sidenav ms-4 ps-1">
+<li class="">
+<a href="../colors/index.html">
+Colors
+</a>
+</li>
+<li class="">
+<a href="../grid/index.html">
+Grid
+</a>
+</li>
+<li class="">
+<a href="../icons/index.html">
+Icons
+</a>
+</li>
+<li class="">
+<a href="../typography/index.html">
+Typography
+</a>
+</li>
+<li class="">
+<a href="../custom-classes/index.html">
+Custom Classes
+</a>
+</li>
+</ul>
+</div>
+<div class="ct-docs-toc-item-active">
+<a class="ct-docs-toc-link" href="javascript:void(0)">
+Components
+</a>
+<ul class="ct-docs-nav-sidenav ms-4 ps-1">
+<li class="">
+<a href="../accordion/index.html">
+Accordion
+<span class="ct-docs-sidenav-pro-badge">Pro</span>
+</a>
+</li>
+<li class="">
+<a href="../alerts/index.html">
+Alerts
+</a>
+</li>
+<li class="">
+<a href="../badge/index.html">
+Badge
+</a>
+</li>
+<li class="">
+<a href="../buttons/index.html">
+Buttons
+</a>
+</li>
+<li class="">
+<a href="../social-buttons/index.html">
+Social Buttons
+<span class="ct-docs-sidenav-pro-badge">Pro</span>
+</a>
+</li>
+<li class=" ct-docs-nav-sidenav-active ">
+<a href="index.html">
+Cards
+<span class="ct-docs-sidenav-pro-badge">Pro</span>
+</a>
+</li>
+<li class="">
+<a href="../dropdowns/index.html">
+Dropdowns
+</a>
+</li>
+<li class="">
+<a href="../images/index.html">
+Images
+</a>
+</li>
+<li class="">
+<a href="../inputs/index.html">
+Inputs
+</a>
+</li>
+<li class="">
+<a href="../menus/index.html">
+Menus
+</a>
+</li>
+<li class="">
+<a href="../modals/index.html">
+Modals
+</a>
+</li>
+<li class="">
+<a href="../navbars/index.html">
+Navbars
+</a>
+</li>
+<li class="">
+<a href="../pagination/index.html">
+Pagination
+</a>
+</li>
+<li class="">
+<a href="../popovers/index.html">
+Popovers
+</a>
+</li>
+<li class="">
+<a href="../progressbars/index.html">
+Progressbars
+</a>
+</li>
+<li class="">
+<a href="../tabs/index.html">
+Tabs
+</a>
+</li>
+<li class="">
+<a href="../tooltips/index.html">
+Tooltips
+</a>
+</li>
+</ul>
+</div>
+<div class="ct-docs-toc-item-active">
+<a class="ct-docs-toc-link" href="javascript:void(0)">
+Plugins
+</a>
+<ul class="ct-docs-nav-sidenav ms-4 ps-1">
+<li class="">
+<a href="../chartjs/index.html">
+ChartJS
+</a>
+</li>
+<li class="">
+<a href="../google-maps/index.html">
+Google Maps
+</a>
+</li>
+<li class="">
+<a href="../popperjs/index.html">
+PopperJS
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<div class="ct-docs-toc-col">
+<ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#examples">Examples</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#card-info-icon">Card Info Icon</a></li>
+<li class="toc-entry toc-h3"><a href="#card-blog-image">Card Blog Image</a></li>
+<li class="toc-entry toc-h3"><a href="#card-background-image-and-transition">Card Background Image and Transition</a></li>
+<li class="toc-entry toc-h3"><a href="#card-pricing">Card Pricing</a></li>
+<li class="toc-entry toc-h3"><a href="#card-blog">Card Blog</a></li>
+<li class="toc-entry toc-h3"><a href="#card-ecommerce">Card Ecommerce</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#view-more-card-examples-here">View more card examples here:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<main class="ct-docs-content-col" role="main">
+    <div class="ct-docs-page-title">
+    <h1 class="ct-docs-page-h1-title" id="content">
+    Notus JS Cards
+    </h1>
+    <span class="ct-docs-page-title-pro-line"> - </span>
+    <div class="ct-docs-page-title-pro-bage">Pro Component</div>
+    <div class="avatar-group mt-3">
+    </div>
+    </div>
+    <p class="ct-docs-page-title-lead">Use Notus’s cards for Tailwind CSS that provide a flexible and extensible content container with multiple variants and options.</p>
+    <hr class="ct-docs-hr">
+    <h2 id="examples">Examples</h2>
+    <h3 id="card-info-icon">Card Info Icon</h3>
+    <div class="ct-example" style="position: relative;border: 2px solid #f5f7ff !important;border-bottom: none !important;padding: 1rem 1rem 2rem 1rem;margin-bottom: -1.25rem;">
+    <div class="w-full md:w-1/3">
+    <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+    <div class="px-4 py-5 flex-auto">
+    <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-gradient-to-b from-red-400 to-red-600 bg-red-400">
+    <i class="fa fa-heart"></i>
+    </div>
+    <h6 class="text-xl font-semibold">Awarded Agency</h6>
+    <p class="mt-2 mb-4 text-blueGray-400">Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="position-relative">
+    <div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div><figure class="highlight"><pre class=" language-html"><code class=" language-html" data-lang="html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>w-full md:w-1/3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>px-4 py-5 flex-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-gradient-to-b from-red-400 to-red-600 bg-red-400<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fa fa-heart<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-xl font-semibold<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Awarded Agency<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mt-2 mb-4 text-blueGray-400<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+    </figure>
+    </div>
+    <h3 id="card-blog-image">Card Blog Image</h3>
+    <div class="ct-example" style="position: relative;border: 2px solid #f5f7ff !important;border-bottom: none !important;padding: 1rem 1rem 2rem 1rem;margin-bottom: -1.25rem;">
+    <div class="w-full md:w-2/3">
+    <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
+    <img alt="..." src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80" class="w-full align-middle rounded-t-lg">
+    <blockquote class="relative p-8 mb-4"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block h-95-px -top-94-px">
+    <polygon points="-30,95 583,95 583,65" class="text-lightBlue-500 fill-current"></polygon>
+    </svg>
+    <h4 class="text-xl font-bold text-white">Top Notch Services</h4>
+    <p class="text-md font-light mt-2 text-white">The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens.</p>
+    </blockquote>
+    </div>
+    </div>
+    </div>
+    <div class="position-relative">
+    <div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div><figure class="highlight"><pre class=" language-html"><code class=" language-html" data-lang="html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>w-full md:w-2/3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1<span class="token entity named-entity" title="&amp;">&amp;amp;</span>ixid=eyJhcHBfaWQiOjEyMDd9<span class="token entity named-entity" title="&amp;">&amp;amp;</span>auto=format<span class="token entity named-entity" title="&amp;">&amp;amp;</span>fit=crop<span class="token entity named-entity" title="&amp;">&amp;amp;</span>w=1051<span class="token entity named-entity" title="&amp;">&amp;amp;</span>q=80<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>w-full align-middle rounded-t-lg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>blockquote</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>relative p-8 mb-4<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>svg</span> <span class="token attr-name">preserveAspectRatio</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>none<span class="token punctuation">"</span></span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>http://www.w3.org/2000/svg<span class="token punctuation">"</span></span> <span class="token attr-name">viewBox</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0 0 583 95<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>absolute left-0 w-full block h-95-px -top-94-px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>polygon</span> <span class="token attr-name">points</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>-30,95 583,95 583,65<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-lightBlue-500 fill-current<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>polygon</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>svg</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h4</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-xl font-bold text-white<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Top Notch Services<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h4</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-md font-light mt-2 text-white<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>blockquote</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+    </figure>
+    </div>
+    <h3 id="card-background-image-and-transition">Card Background Image and Transition</h3>
+    <div class="ct-example" style="position: relative;border: 2px solid #f5f7ff !important;border-bottom: none !important;padding: 1rem 1rem 2rem 1rem;margin-bottom: -1.25rem;">
+    <div class="w-full md:w-2/3">
+    <div class="h-500-px overflow-hidden relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg transition-all duration-150 ease-in-out hover:z-1 hover:transform hover:scale-110 group rounded-lg mb-4">
+    <div class="absolute w-full h-full bg-50-center bg-cover transition-all duration-1000 ease-in-out group-hover:transform group-hover:scale-110 rounded-lg" style="background-image: url('https://demos.creative-tim.com/notus-pro-html/assets/img/guitar-play.jpg'); backface-visibility: hidden;">
+    </div>
+    <div class="absolute w-full h-full bg-black opacity-50 rounded-lg">
+    </div><a href="javascript:;">
+    <div class="absolute text-left p-6 bottom-0">
+    <h6 class="text-xl leading-normal mb-0 text-white opacity-75">All the beautiful places</h6>
+    <h5 class="text-2xl font-bold leading-tight mt-0 mb-2 text-white">Research by Bang &amp; Olufsen on city sounds and music</h5>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    <div class="position-relative">
+    <div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div><figure class="highlight"><pre class=" language-html"><code class=" language-html" data-lang="html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>w-full md:w-2/3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>h-500-px overflow-hidden relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg transition-all duration-150 ease-in-out hover:z-1 hover:transform hover:scale-110 group rounded-lg mb-4<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>absolute w-full h-full bg-50-center bg-cover transition-all duration-1000 ease-in-out group-hover:transform group-hover:scale-110 rounded-lg<span class="token punctuation">"</span></span><span class="token style-attr language-css"><span class="token attr-name"> <span class="token attr-name">style</span></span><span class="token punctuation">="</span><span class="token attr-value"><span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">'https://demos.creative-tim.com/notus-pro-html/assets/img/guitar-play.jpg'</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span> <span class="token property">backface-visibility</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>absolute w-full h-full bg-black opacity-50 rounded-lg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript:;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>absolute text-left p-6 bottom-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-xl leading-normal mb-0 text-white opacity-75<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>All the beautiful places<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-2xl font-bold leading-tight mt-0 mb-2 text-white<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Research by Bang <span class="token entity named-entity" title="&amp;">&amp;amp;</span> Olufsen on city sounds and music<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+    </figure>
+    </div>
+    <h3 id="card-pricing">Card Pricing</h3>
+    <div class="ct-example" style="position: relative;border: 2px solid #f5f7ff !important;border-bottom: none !important;padding: 1rem 1rem 2rem 1rem;margin-bottom: -1.25rem;">
+    <div class="w-full md:w-1/3">
+    <div class="bg-white mb-6 text-center shadow-lg rounded-lg relative flex flex-col min-w-0 break-words w-full mb-6 rounded-lg">
+    <div class="bg-transparent first:rounded-t px-5 py-3 border-b border-blueGray-200">
+    <h6 class="font-bold my-2">Standard</h6>
+    </div>
+    <div class="px-4 py-5 flex-auto">
+    <div class="text-5xl mt-0 mb-0 font-bold">$25</div>
+    <span> per month </span>
+    <ul class="mt-6 mb-0 list-none">
+    <li class="py-1 text-blueGray-500">
+    <b class="text-lightBlue-500"> 20GB </b>File Storage
+    </li>
+    <li class="py-1 text-blueGray-500">
+    <b class="text-lightBlue-500"> 15 </b>Users/project
+    </li>
+    <li class="py-1 text-blueGray-500">
+    <b class="text-lightBlue-500"> 4.000 </b>Internal messages
+    </li>
+    </ul>
+    </div>
+    <div class="mt-4 py-6 bg-transparent bg-transparent rounded-b px-4 py-3 border-t border-blueGray-200">
+    <a href="javascript:;" class="text-lightBlue-500">Request a demo</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="position-relative">
+    <div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div><figure class="highlight"><pre class=" language-html"><code class=" language-html" data-lang="html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>w-full md:w-1/3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-white mb-6 text-center shadow-lg rounded-lg relative flex flex-col min-w-0 break-words w-full mb-6 rounded-lg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-transparent first:rounded-t px-5 py-3 border-b border-blueGray-200<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>font-bold my-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Standard<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>px-4 py-5 flex-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-5xl mt-0 mb-0 font-bold<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>$25<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span> per month <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mt-6 mb-0 list-none<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>py-1 text-blueGray-500<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>b</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-lightBlue-500<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span> 20GB <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>b</span><span class="token punctuation">&gt;</span></span>File Storage
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>py-1 text-blueGray-500<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>b</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-lightBlue-500<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span> 15 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>b</span><span class="token punctuation">&gt;</span></span>Users/project
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>py-1 text-blueGray-500<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>b</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-lightBlue-500<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span> 4.000 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>b</span><span class="token punctuation">&gt;</span></span>Internal messages
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mt-4 py-6 bg-transparent bg-transparent rounded-b px-4 py-3 border-t border-blueGray-200<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript:;<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-lightBlue-500<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Request a demo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+    </figure>
+    </div>
+    <h3 id="card-blog">Card Blog</h3>
+    <div class="ct-example" style="position: relative;border: 2px solid #f5f7ff !important;border-bottom: none !important;padding: 1rem 1rem 2rem 1rem;margin-bottom: -1.25rem;">
+    <div class="w-full md:w-1/2">
+    <div class="overflow-hidden mb-12 rounded-lg relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded h-550-px transition-all duration-150 ease-in-out hover:transform hover:scale-110 group">
+    <div class="absolute rounded-lg w-full h-full bg-50-center bg-cover transition-all duration-1000 ease-in-out group-hover:transform group-hover:scale-110" style="background-image: url('https://demos.creative-tim.com/notus-pro-html/assets/img/sections/unsplashs.jpg'); backface-visibility: hidden;">
+    </div>
+    <div class="absolute rounded-lg w-full h-full bg-black opacity-50">
+    </div>
+    <div class="p-10 flex h-full items-end z-1">
+    <div>
+    <h1 class="text-4xl font-semibold mt-0 mb-2 text-white">Miami Vice</h1>
+    <p class="text-white opacity-75 text-lg">The simplest visual description uses ordinary words to convey what the writer sees. First he or she must look at the subject – slowly, carefully, and repeatedly, if possible – to identify the parts that make the whole</p>
+    <div class="py-4 mb-3 flex items-start">
+    <a href="javascript:;" class="flex items-center relative">
+    <img data-cfsrc="https://demos.creative-tim.com/notus-pro-html/assets/img/team-1-800x800.jpg" class="rounded-full mr-4" alt="..." data-cfstyle="max-width: 40px;" style="max-width: 40px;" src="https://demos.creative-tim.com/notus-pro-html/assets/img/team-1-800x800.jpg">
+    <div class="flex-1">
+    <div class="justify-between items-center">
+    <h6 class="text-sm uppercase mb-2 mt-2 text-white font-semibold">by Martin Jay</h6>
+    </div>
+    </div>
+    </a>
+    </div>
+    <button class="inline-block relative outline-none focus:outline-none align-middle transition-all duration-150 ease-in-out uppercase border border-solid font-bold last:mr-0 mr-2  text-white bg-red-500 border-red-500 active:bg-red-600 active:border-red-600 text-sm px-6 py-2 shadow hover:shadow-lg rounded-md">Read more...</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="position-relative">
+    <div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div><figure class="highlight"><pre class=" language-html"><code class=" language-html" data-lang="html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>w-full md:w-1/2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>overflow-hidden mb-12 rounded-lg relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded h-550-px transition-all duration-150 ease-in-out hover:transform hover:scale-110 group<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>absolute rounded-lg w-full h-full bg-50-center bg-cover transition-all duration-1000 ease-in-out group-hover:transform group-hover:scale-110<span class="token punctuation">"</span></span><span class="token style-attr language-css"><span class="token attr-name"> <span class="token attr-name">style</span></span><span class="token punctuation">="</span><span class="token attr-value"><span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">'https://demos.creative-tim.com/notus-pro-html/assets/img/sections/unsplashs.jpg'</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span> <span class="token property">backface-visibility</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>absolute rounded-lg w-full h-full bg-black opacity-50<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p-10 flex h-full items-end z-1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-4xl font-semibold mt-0 mb-2 text-white<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Miami Vice<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-white opacity-75 text-lg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>The simplest visual description uses ordinary words to convey what the writer sees. First he or she must look at the subject – slowly, carefully, and repeatedly, if possible – to identify the parts that make the whole<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>py-4 mb-3 flex items-start<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript:;<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>flex items-center relative<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://demos.creative-tim.com/notus-pro-html/assets/img/team-1-800x800.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>rounded-full mr-4<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span><span class="token style-attr language-css"><span class="token attr-name"> <span class="token attr-name">style</span></span><span class="token punctuation">="</span><span class="token attr-value"><span class="token property">max-width</span><span class="token punctuation">:</span> 40px<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>flex-1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>justify-between items-center<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-sm uppercase mb-2 mt-2 text-white font-semibold<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>by Martin Jay<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inline-block relative outline-none focus:outline-none align-middle transition-all duration-150 ease-in-out uppercase border border-solid font-bold last:mr-0 mr-2  text-white bg-red-500 border-red-500 active:bg-red-600 active:border-red-600 text-sm px-6 py-2 shadow hover:shadow-lg rounded-md<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Read more...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+    </figure>
+    </div>
+    <h3 id="card-ecommerce">Card Ecommerce</h3>
+    <div class="ct-example" style="position: relative;border: 2px solid #f5f7ff !important;border-bottom: none !important;padding: 1rem 1rem 2rem 1rem;margin-bottom: -1.25rem;">
+    <div class="w-full md:w-2/3">
+    <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg">
+    <div class="px-4 py-5 flex-auto">
+    <div class="items-center my-4 flex items-start">
+    <img data-cfsrc="https://demos.creative-tim.com/notus-pro-react/static/media/gucci.df54712f.png" class="mr-4 w-20 p-2" alt="..." src="https://demos.creative-tim.com/notus-pro-react/static/media/gucci.df54712f.png">
+    <div class="flex-1">
+    <div class="justify-between">
+    <h6 class="text-xl font-semibold leading-tight mb-1">Shorts</h6>
+    <p class="text-blueGray-500 uppercase font-bold text-xs">Small</p>
+    </div>
+    </div>
+    <span class="text-blueGray-700">$290</span>
+    </div>
+    <div class="items-center my-4 flex items-start">
+    <img data-cfsrc="https://demos.creative-tim.com/notus-pro-react/static/media/jacket.132b3c72.png" class="mr-4 w-20 p-2" alt="..." src="https://demos.creative-tim.com/notus-pro-react/static/media/jacket.132b3c72.png">
+    <div class="flex-1">
+    <div class="justify-between">
+    <h6 class="text-xl font-semibold leading-tight mb-1">Jacket</h6>
+    <p class="text-blueGray-500 uppercase font-bold text-xs">Medium</p>
+    </div>
+    </div>
+    <span class="text-blueGray-700">$1.000</span>
+    </div>
+    <hr class="mt-6 mb-4 bg-blueGray-300 ml-0">
+    <div class="mb-0 pt-0 relative">
+    <label class="block uppercase text-blueGray-700 text-xs font-bold mb-2 ml-1">Discount</label>
+    <div class="mb-2 relative flex flex-wrap w-full items-stretch">
+    <div class="mr-2">
+    <div class="mb-3 pt-0"><input placeholder="Discount code" type="text" class="border-blueGray-300 px-3 py-2 text-sm  w-full placeholder-blueGray-200 text-blueGray-700 relative bg-white rounded-md outline-none focus:ring focus:ring-lightBlue-500 focus:ring-1 focus:border-lightBlue-500 border border-solid transition duration-200 "></div>
+    </div>
+    <div class="mb-0"><button class="inline-block outline-none focus:outline-none align-middle transition-all duration-150 ease-in-out uppercase border border-solid font-bold last:mr-0 mr-2  text-white bg-pink-500 border-pink-500 active:bg-pink-600 active:border-pink-600 text-sm px-6 py-2 shadow hover:shadow-lg rounded-md">Apply</button></div>
+    </div>
+    </div>
+    <div>
+    <hr class="mt-4 mb-2 bg-blueGray-300 ml-0">
+    <div class="flex justify-between">
+    <h6 class="text-blueGray-700 leading-normal mt-0 mb-2">Subtotal</h6>
+    <h6 class="leading-normal mt-0 mb-2">$1.290</h6>
+    </div>
+    <div class="flex justify-between">
+    <h6 class="text-blueGray-700 leading-normal mt-0 mb-2">Shipping</h6>
+    <h6 class="leading-normal mt-0 mb-2">$200</h6>
+    </div>
+    </div>
+    <div>
+    <hr class="mt-4 mb-2 bg-blueGray-300 ml-0">
+    <div class="flex justify-between">
+    <h6 class="text-blueGray-700 leading-normal mt-0 mb-2">Total</h6>
+    <h6 class="leading-normal mt-0 mb-2">$1.490</h6>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="position-relative">
+    <div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div><figure class="highlight"><pre class=" language-html"><code class=" language-html" data-lang="html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>w-full md:w-2/3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+           <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>px-4 py-5 flex-auto<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>items-center my-4 flex items-start<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://demos.creative-tim.com/notus-pro-react/static/media/gucci.df54712f.png<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mr-4 w-20 p-2<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>flex-1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>justify-between<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-xl font-semibold leading-tight mb-1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Shorts<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">&gt;</span></span>
+                       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-blueGray-500 uppercase font-bold text-xs<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Small<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-blueGray-700<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>$290<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>items-center my-4 flex items-start<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://demos.creative-tim.com/notus-pro-react/static/media/jacket.132b3c72.png<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mr-4 w-20 p-2<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>flex-1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>justify-between<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-xl font-semibold leading-tight mb-1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Jacket<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">&gt;</span></span>
+                       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-blueGray-500 uppercase font-bold text-xs<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Medium<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-blueGray-700<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>$1.000<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mt-6 mb-4 bg-blueGray-300 ml-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mb-0 pt-0 relative<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>block uppercase text-blueGray-700 text-xs font-bold mb-2 ml-1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Discount<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mb-2 relative flex flex-wrap w-full items-stretch<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mr-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mb-3 pt-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Discount code<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>border-blueGray-300 px-3 py-2 text-sm  w-full placeholder-blueGray-200 text-blueGray-700 relative bg-white rounded-md outline-none focus:ring focus:ring-lightBlue-500 focus:ring-1 focus:border-lightBlue-500 border border-solid transition duration-200 <span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mb-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inline-block outline-none focus:outline-none align-middle transition-all duration-150 ease-in-out uppercase border border-solid font-bold last:mr-0 mr-2  text-white bg-pink-500 border-pink-500 active:bg-pink-600 active:border-pink-600 text-sm px-6 py-2 shadow hover:shadow-lg rounded-md<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Apply<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mt-4 mb-2 bg-blueGray-300 ml-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>flex justify-between<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-blueGray-700 leading-normal mt-0 mb-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Subtotal<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>leading-normal mt-0 mb-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>$1.290<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>flex justify-between<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-blueGray-700 leading-normal mt-0 mb-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Shipping<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>leading-normal mt-0 mb-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>$200<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mt-4 mb-2 bg-blueGray-300 ml-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>flex justify-between<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-blueGray-700 leading-normal mt-0 mb-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Total<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>leading-normal mt-0 mb-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>$1.490<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">&gt;</span></span>
+                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+           <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+    </figure>
+    </div>
+    <h4 id="view-more-card-examples-here">View more card examples here:</h4>
+    <ul>
+    <li><a href="https://demos.creative-tim.com/notus-pro-html/presentation/components/cards.html">Presentation Cards</a>.</li>
+    <li><a href="https://demos.creative-tim.com/notus-pro-html/admin/components/cards.html">Admin Cards</a>.</li>
+    <li><a href="https://demos.creative-tim.com/notus-pro-html/ecommerce/components/cards.html">E-commerce Cards</a>.</li>
+    <li><a href="https://demos.creative-tim.com/notus-pro-html/blog/components/cards.html">Blog Cards</a>.</li>
+    </ul>
+    </main>
+</div>
+<div class="ct-docs-main-footer-row">
+<div class="ct-docs-main-footer-blank-col">
+</div>
+<div class="ct-docs-main-footer-col">
+</div>
+</div>
+</div>
+<script src="../../../assets/jquery.js" type="text/javascript"></script>
+<script src="https://unpkg.com/@popperjs/core@2" type="text/javascript"></script>
+<script src="../../../assets/bootstrap.js" type="text/javascript"></script>
+<script src="#" type="text/javascript"></script>
+<script src="../../../assets/app.js" type="text/javascript"></script>
+<script src="#" type="text/javascript"></script>
+<script src="../../../assets/clipboard.js" type="text/javascript"></script>
+<script src="../../../assets/prism.js" type="text/javascript"></script>
+<script src="#" type="text/javascript"></script>
+<script src="../../../assets/holder.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+<script src="../../../assets/charts.js" charset="utf-8"></script>
+<script src="../../../assets/notus.js"></script>
+<script src="#" type="text/javascript"></script>
+<script src="#" type="text/javascript"></script>
+<script>
+      Holder.addTheme('gray', {
+        bg: '#777',
+        fg: 'rgba(255,255,255,.75)',
+        font: 'Helvetica',
+        fontweight: 'normal'
+      })
+    </script>
+<script src="../../../assets/docs.js"></script>
+</body>
+</html><!DOCTYPE html>

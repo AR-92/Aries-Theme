@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Aries">
+<title>
+      Build Tools | Aries JS @ Aries
+    </title>
+<meta name="description" content="Learn how to use Aries's, for Javascript, included npm scripts to compile source code, run tests, and more.">
+<meta name="twitter:title" content="Build Tools | Aries JS @ Aries">
+<meta name="twitter:description" content="Learn how to use Aries's, for Javascript, included npm scripts to compile source code, run tests, and more.">
+<meta property="og:title" content="Build Tools | Aries JS @ Aries" />
+<meta property="og:description" content="Learn how to use Aries's, for Javascript, included npm scripts to compile source code, run tests, and more." />
+<meta property="og:site_name" content="Aries" />
+<link rel="stylesheet" href="#" type="text/css">
+<link href="../../../assets/allcss.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="../../../assets/notus.css" rel="stylesheet" />
+<link href="../../../assets/docs.css" rel="stylesheet" />
+</head>
+<body class="docs ">
+<div class="ct-docs-main-container">
+<div class="ct-docs-main-content-row">
+<div class="ct-docs-sidebar-col">
+<nav class="ct-docs-sidebar-collapse-links">
+<div class="ct-docs-sidebar-product">
+
+<p class="ct-docs-sidebar-product-text">Aries JS</p>
+</div>
+<div class="ct-docs-toc-item-active">
+<a class="ct-docs-toc-link" href="javascript:void(0)">
+Getting Started
+</a>
+<ul class="ct-docs-nav-sidenav ms-4 ps-1">
+<li class="">
+<a href="../overview/index.html">
+Overview
+</a>
+ </li>
+<li class=" ct-docs-nav-sidenav-active ">
+<a href="index.html">
+Build Tools
+</a>
+</li>
+<li class="">
+<a href="../license/index.html">
+License
+</a>
+</li>
+<li class="">
+<a href="../quick-start/index.html">
+Quick Start
+</a>
+</li>
+<li class="">
+<a href="../what-is-javascript/index.html">
+What is JavaScript
+</a>
+</li>
+<li class="">
+<a href="../what-is-tailwind-css/index.html">
+What is Tailwind CSS
+</a>
+</li>
+</ul>
+</div>
+<div class="ct-docs-toc-item-active">
+<a class="ct-docs-toc-link" href="javascript:void(0)">
+Foundation
+</a>
+<ul class="ct-docs-nav-sidenav ms-4 ps-1">
+<li class="">
+<a href="../colors/index.html">
+Colors
+</a>
+</li>
+<li class="">
+<a href="../grid/index.html">
+Grid
+</a>
+</li>
+<li class="">
+<a href="../icons/index.html">
+Icons
+</a>
+</li>
+<li class="">
+<a href="../typography/index.html">
+Typography
+</a>
+</li>
+<li class="">
+<a href="../custom-classes/index.html">
+Custom Classes
+</a>
+</li>
+</ul>
+</div>
+<div class="ct-docs-toc-item-active">
+<a class="ct-docs-toc-link" href="javascript:void(0)">
+Components
+</a>
+<ul class="ct-docs-nav-sidenav ms-4 ps-1">
+<li class="">
+<a href="../accordion/index.html">
+Accordion
+<span class="ct-docs-sidenav-pro-badge">Pro</span>
+</a>
+</li>
+<li class="">
+<a href="../alerts/index.html">
+Alerts
+</a>
+</li>
+<li class="">
+<a href="../badge/index.html">
+Badge
+</a>
+</li>
+<li class="">
+<a href="../buttons/index.html">
+Buttons
+</a>
+</li>
+<li class="">
+<a href="../social-buttons/index.html">
+Social Buttons
+<span class="ct-docs-sidenav-pro-badge">Pro</span>
+</a>
+</li>
+<li class="">
+<a href="../cards/index.html">
+Cards
+<span class="ct-docs-sidenav-pro-badge">Pro</span>
+</a>
+</li>
+<li class="">
+<a href="../dropdowns/index.html">
+Dropdowns
+</a>
+</li>
+<li class="">
+<a href="../images/index.html">
+Images
+</a>
+</li>
+<li class="">
+<a href="../inputs/index.html">
+Inputs
+</a>
+</li>
+<li class="">
+<a href="../menus/index.html">
+Menus
+</a>
+</li>
+<li class="">
+<a href="../modals/index.html">
+Modals
+</a>
+</li>
+<li class="">
+<a href="../navbars/index.html">
+Navbars
+</a>
+</li>
+<li class="">
+<a href="../pagination/index.html">
+Pagination
+</a>
+</li>
+<li class="">
+<a href="../popovers/index.html">
+Popovers
+</a>
+</li>
+<li class="">
+<a href="../progressbars/index.html">
+Progressbars
+</a>
+</li>
+<li class="">
+<a href="../tabs/index.html">
+Tabs
+</a>
+</li>
+<li class="">
+<a href="../tooltips/index.html">
+Tooltips
+</a>
+</li>
+</ul>
+</div>
+<div class="ct-docs-toc-item-active">
+<a class="ct-docs-toc-link" href="javascript:void(0)">
+Plugins
+</a>
+<ul class="ct-docs-nav-sidenav ms-4 ps-1">
+<li class="">
+<a href="../chartjs/index.html">
+ChartJS
+</a>
+</li>
+<li class="">
+<a href="../google-maps/index.html">
+Google Maps
+</a>
+</li>
+<li class="">
+<a href="../popperjs/index.html">
+PopperJS
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<div class="ct-docs-toc-col">
+<ul class="section-nav">
+<li class="toc-entry toc-h3"><a href="#available-commands">Available commands</a></li>
+</ul>
+</div>
+<main class="ct-docs-content-col" role="main">
+<div class="ct-docs-page-title">
+<h1 class="ct-docs-page-h1-title" id="content">
+Build Tools
+</h1>
+<div class="avatar-group mt-3">
+</div>
+</div>
+<p class="ct-docs-page-title-lead">Learn how to use Aries’s, for Javascript, included npm scripts to compile source code, run tests, and more.</p>
+<hr class="ct-docs-hr">
+<h3 id="available-commands">Available commands</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Name</th>
+<th>Usage</th>
+<th>Description</th>
+<th>Read More</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code class="language-plaintext highlighter-rouge">install</code></td>
+<td><code class="language-plaintext highlighter-rouge">npm install</code></td>
+<td>This command installs a package, and any packages that it depends on.</td>
+<td><a href="#" rel="nofollow" target="_blank">Read more</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td><code class="language-plaintext highlighter-rouge">start</code></td>
+<td><code class="language-plaintext highlighter-rouge">npm start</code></td>
+<td>Run a Local server (uses your cwd as the web root) and default the first page as <code class="language-plaintext highlighter-rouge">index.html</code>. (NOTE: this command is for power users)</td>
+<td><a href="#" rel="nofollow" target="_blank">Read more</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td><code class="language-plaintext highlighter-rouge">build:fontawesome</code></td>
+<td><code class="language-plaintext highlighter-rouge">npm run build:fontawesome</code></td>
+<td>This command will copy <code class="language-plaintext highlighter-rouge">node_modules/@fortawesome/fontawesome-free</code> to <code class="language-plaintext highlighter-rouge">assets/vendor/@fortawesome/fontawesome-free</code>. This for easier updates of the package at hand. (NOTE: this command is for power users)</td>
+<td><a href="notus66f8?ref=creativetim" rel="nofollow" target="_blank">Read more</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td><code class="language-plaintext highlighter-rouge">build:tailwind</code></td>
+<td><code class="language-plaintext highlighter-rouge">npm run build:tailwind</code></td>
+<td>This will compile and create the Tailwind CSS styles inside <code class="language-plaintext highlighter-rouge">assets/styles/tailwind.css</code>. NOTE, each time you add a new class to your components, you will have to run this command, so that those new classes would be compiled by tailwind, and the styles will be applied. (NOTE: this command is for power users)</td>
+<td><a href="#" rel="nofollow" target="_blank">Read more</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td><code class="language-plaintext highlighter-rouge">install:clean</code></td>
+<td><code class="language-plaintext highlighter-rouge">npm run install:clean</code></td>
+<td>This command will remove the <code class="language-plaintext highlighter-rouge">node_modules</code> folder and <code class="language-plaintext highlighter-rouge">package_lock.json</code> file, will install a fresh copy of them and it will start the development server. (NOTE: this command only works on linux based terminals) (NOTE: this command is for power users)</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+</main>
+</div>
+<div class="ct-docs-main-footer-row">
+<div class="ct-docs-main-footer-blank-col">
+</div>
+<div class="ct-docs-main-footer-col">
+</div>
+</div>
+</div>
+<script src="../../../assets/jquery.js" type="text/javascript"></script>
+<script src="https://unpkg.com/@popperjs/core@2" type="text/javascript"></script>
+<script src="../../../assets/bootstrap.js" type="text/javascript"></script>
+<script src="#" type="text/javascript"></script>
+<script src="../../../assets/app.js" type="text/javascript"></script>
+<script src="#" type="text/javascript"></script>
+<script src="../../../assets/clipboard.js" type="text/javascript"></script>
+<script src="../../../assets/prism.js" type="text/javascript"></script>
+<script src="#" type="text/javascript"></script>
+<script src="../../../assets/holder.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+<script src="../../../assets/charts.js" charset="utf-8"></script>
+<script src="../../../assets/notus.js"></script>
+<script src="#" type="text/javascript"></script>
+<script src="#" type="text/javascript"></script>
+<script>
+      Holder.addTheme('gray', {
+        bg: '#777',
+        fg: 'rgba(255,255,255,.75)',
+        font: 'Helvetica',
+        fontweight: 'normal'
+      })
+    </script>
+<script src="../../../assets/docs.js"></script>
+</body>
+</html><!DOCTYPE html>
